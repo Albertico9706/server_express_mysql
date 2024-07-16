@@ -8,7 +8,7 @@ class Product extends Model {
     static config(sequelize) {
         return {
             sequelize,
-            tableName: PERSON_TABLE,
+            tableName: PRODUCT_TABLE,
             modelName: 'Product',
             timestamps: true
         }
